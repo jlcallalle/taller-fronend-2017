@@ -1,0 +1,11 @@
+commit 71c79b4ee7de184c533633fbaa841efddfecbef6
+Author: Jorge <jlcallalle@medialabla.com>
+Date:   Sun Jun 4 17:45:42 2017 -0500
+
+    Actualizando archivo README.md
+
+commit 38e9a98f7cd4346063357308ccca33881cdf9c12
+Author: Jorge Callalle <jlcallalle@medialabla.com>
+Date:   Wed May 3 10:00:50 2017 -0500
+
+    Primer Commit
