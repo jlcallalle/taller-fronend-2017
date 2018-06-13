@@ -19,5 +19,3 @@
 
 	console.log(html, head, body);
 })(document, window, navigator);
-
-// alert('hola');
