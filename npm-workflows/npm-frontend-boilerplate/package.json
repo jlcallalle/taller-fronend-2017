@@ -11,7 +11,9 @@
 		"watch:metalang": "parallelshell \"npm run sass\" \"npm run pug\" \"npm run babel\"",
 		"dev:serve": "browser-sync start --server --directory --startPath src  --serverStatic src --files src --reload-delay=300 --reload-debounce=500",
 		"dev:proxy": "browser-sync start --proxy localhost --directory --startPath /taller-frontend/npm-workflows/npm-frontend-boilerplate  --serverStatic / --files ./src --reload-delay=300 --reload-debounce=500",
-		"watch:devserve": "parallelshell\"npm run dev:serve\"\"npm run watch:metalang\""
+		"watch:devserve": "parallelshell\"npm run dev:serve\"\"npm run watch:metalang\"",
+		"clean": "rimraf ./dist/*",
+		"build:folders": "mkdirp ./dist/css ./dist/js ./dist/img"
 	},
 	"author": "",
 	"license": "MIT",
