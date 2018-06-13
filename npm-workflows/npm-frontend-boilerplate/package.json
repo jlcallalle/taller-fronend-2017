@@ -10,7 +10,7 @@
 		"pug": "pug -w -P -p ./src/pug/partials/ -O ./src/pug/options.json ./src/pug/templates/ -o ./src/",
 		"watch:metalang": "parallelshell \"npm run sass\" \"npm run pug\" \"npm run babel\"",
 		"dev:serve": "browser-sync start --server --directory --startPath src  --serverStatic src --files src --reload-delay=300 --reload-debounce=500",
-		"dev:proxy": "browser-sync start --proxy localhost --directory --startPath /TallerFrontend2017/codigos/npm-workflows/npm-frontend-boilerplate  --serverStatic / --files ./src --reload-delay=300 --reload-debounce=500",
+		"dev:proxy": "browser-sync start --proxy localhost --directory --startPath /taller-frontend/npm-workflows/npm-frontend-boilerplate  --serverStatic / --files ./src --reload-delay=300 --reload-debounce=500",
 		"watch:devserve": "parallelshell\"npm run dev:serve\"\"npm run watch:metalang\""
 	},
 	"author": "",
