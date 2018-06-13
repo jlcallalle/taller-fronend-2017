@@ -1,9 +1,15 @@
 html {
   font-family: sans-serif;
   font-size: 16px;
-  background-color: #1F3E79; }
+  background-color: #2291D0; }
 
 a {
   color: #FDD624; }
   a:hover {
-    color: #1F3E79; }
+    color: #2291D0; }
+
+.hola-sass {
+  color: coral; }
+
+footer {
+  color: orange; }
