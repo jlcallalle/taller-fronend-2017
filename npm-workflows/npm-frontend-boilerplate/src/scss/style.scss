@@ -9,14 +9,10 @@ html {
 a {
 	color: $yellow;
 	&:hover {
-		color: $blue-light;
+		color: $blue-dark;
 	}
 }
 
-.hola-sass {
-	color:$color-coral;
-}
-
-footer {
-	color:orange;
+.hola {
+	color:red;
 }
